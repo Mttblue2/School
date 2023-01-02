@@ -1,0 +1,27 @@
+ const int control=13;  
+ int sensorValue=0;
+ float voltage =0; 
+  
+// the setup routine runs once when you press reset: 
+void setup()
+{ 
+	// initialize serial communication at 9600 bits per second: 
+	Serial.begin(9600); 
+	pinMode(control, INPUT);  
+} 
+
+// the loop routine runs over and over again forever: 
+void loop()
+{ 
+	sensorValue = analogRead(A0);
+	voltage1 = sensorValue1 * (5.0 / 1023.0);
+	
+	// checks voltage to see if LED vision has been blocked. Light intensity lower
+	while (voltage < 1.0)
+	{
+		//generates a 300hz on a speaker connected pin 2, and checks to see if the LED is still blocked
+		tone(2, 300)
+		sensorValue = analogRead(A0);
+		voltage1 = sensorValue1 * (5.0 / 1023.0);
+	}  
+}

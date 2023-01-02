@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Java Script Demo</title>
+	</head>
+	<body>
+		<p>Welcoming the user</p>
+		<script>
+			var name_First = prompt("Please enter your first name.");
+			var name_Last = prompt("Please enter your last name.");
+			var name_Length = (name_First.length + name_Last.length);
+			document.write("Hi " + name_First + " " + name_Last + ". Welcome to my demo page. Did you know that your name has " + name_Length + " character?");
+		</script>
+		<hr>
+		
+		<p>Squaring a Number</p>
+		<script>
+			var num1 = prompt("Enter a number you would like to square.");
+			num_sq = ((num1) * num1);
+			document.write("Here is your number " + num1 + " squared. " + num_sq);
+		</script>
+		<hr>
+		
+		<p>Computing the average of three numbers</p>
+		<script>
+			var avg1 = parseFloat(prompt("Enter first number for an average."));
+			var avg2 = parseFloat(prompt("Enter second number for the average."));
+			var avg3 = parseFloat(prompt("Enter last number for the average."));
+			var avg_Total = ((avg1 + avg2 + avg3)/3);
+			document.write(avg_Total);
+		</script>
+		<hr>
+		
+		<p>Properties of a square</p>
+		<script>
+			var squ_Side = parseFloat(prompt("Enter the length of a side of your square"));
+			var squ_Perim = (squ_Side*4), squ_Area = (squ_Side*squ_Side);
+			document.write("Perimeter is " + squ_Perim + ". Area is " + squ_Area +".");
+		</script>
+		<hr>
+	</body>
+</html>

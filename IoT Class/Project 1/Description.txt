@@ -1,0 +1,11 @@
+Circuit 1
+
+This circuit reads from pin 3, which is connected to a switch.
+It is also outputs to pin 8, which is connected to an LED.
+Whenever the switch is pressed, it will turn off the LED if it is on.
+It will turn on the LED if it is off.
+
+Circuit 2
+
+This circuit outputs to pin 3, which has an LED connected to it.
+Every second the LED will change from off, 50% brightness to 100% brightness.

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MoviesDBEntities-Web.config Connection String" description="MoviesDBEntities Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=MoviesDBEntities-20181011004523; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|MoviesDBEntities-20181011004523.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Tater\\source\\repos\\HowardAssign01\\HowardAssign01\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MoviesDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

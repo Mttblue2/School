@@ -1,0 +1,38 @@
+'[ - ] File not found. Try again.'
+
+'[ - ] Incorrect input. Try again.'
+
+"[ ? ] Enter the file name: "
+
+"[ + ] Most records lost by entities..."
+
+"-"*45
+
+"[ {:2d} ] | {:15.10s} | {:10d}"
+
+"[ + ] Most records lost in a year..."
+
+"[ {:2d} ] | {:15.10s} | {:10d}"
+
+"[ ? ] Plot (y/n)? "
+
+"[ + ] Loaded sector data."
+
+"[ ? ] Sector (case sensitive)? "
+
+"[ + ] Top methods in sector {}"
+
+"[ {:2d} ] | {:15.10s} | {:10d}"
+
+"[ - ] Invalid sector name. Try again."
+
+"[ ? ] Name of the entity (case sensitive)? "
+
+"[ + ] Found {} stories:"
+
+"[ + ] Story {}: {:10s}"
+
+"[ - ] Entity not found. Try again."
+
+"[ + ] Done. Exiting now..."
+

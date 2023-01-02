@@ -1,0 +1,25 @@
+
+public class Graph
+{
+	private int matrix[][];
+	private boolean matrix_visited[];
+	private String[] names;
+	
+	public Graph(String[] name)
+	{
+		//this.names = new String[name.length];
+		this.matrix_visited = new boolean[name.length];
+		this.names = name.clone();
+	}
+	
+	public void addEdge(int startV, int endV, int weight)
+	{
+		matrix[startV][endV] = weight;
+		matrix[endV][startV] = weight;
+	}
+	
+	public int prims()
+	{
+		
+	}
+}

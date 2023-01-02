@@ -1,0 +1,7 @@
+INDEX VERSION 1.130+C:\Users\Tater\eclipse\Project Folder\CSCI U321\.metadata\.plugins\org.eclipse.jdt.core
+747219409.index
+1309574483.index
+1046770140.index
+3045128299.index
+3496612080.index
+2808946790.index

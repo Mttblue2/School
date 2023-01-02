@@ -1,0 +1,3 @@
+Passphrase for CA: Meowmix
+Passphrase for server.key: pkilab
+Passphrase for challenge: password

@@ -1,0 +1,9 @@
+var TotalPrice, Tax_of_Bill, Tip_of_Bill, Bill_with_Tip, Subtotal=55.25, Tax=.06, Tip=.18;
+Tax_of_Bill=Tax*Subtotal;
+TotalPrice=Tax_of_Bill+Subtotal;
+Tip_of_Bill=TotalPrice*Tip;
+Bill_with_Tip=TotalPrice+Tip_of_Bill;
+Bill_with_Tip
+/*
+69.10669999999999
+*/

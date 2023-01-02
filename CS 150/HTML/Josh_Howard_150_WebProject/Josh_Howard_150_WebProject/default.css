@@ -1,0 +1,8 @@
+body{background-color:lightblue}
+p{color:maroon}
+h1{color:midnightblue;text-align:center}
+a{text-decoration:underline}
+a:link{color:yellow}
+a:hover{color:blue}
+a:visited{color:green}
+b{color:purple}

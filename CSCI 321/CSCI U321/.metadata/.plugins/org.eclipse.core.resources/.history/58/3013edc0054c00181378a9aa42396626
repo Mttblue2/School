@@ -1,0 +1,18 @@
+
+public class Graph
+{
+	private int matrix[][];
+	private String[] names;
+	
+	public Graph(String[] name)
+	{
+		//this.names = new String[name.length];
+		this.names = name.clone();
+	}
+	
+	public void addEdge(int startV, int endV, int weight)
+	{
+		matrix[startV][endV] = weight;
+		matrix[endV][startV] = weight;
+	}
+}
